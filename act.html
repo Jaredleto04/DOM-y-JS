@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Control de inventario</h1>
+    <p>Crear un pequeño control de inventario</p>
+    <div id='container'>
+      <div id='app'>
+            <form>
+          <label for='txtCodigo'>
+            Codigo:<input type='text' id='txtCodigo'>
+          </label><br>
+          <label for='txtNombre'>
+            Nombre:<input type='text' id='txtNombre'>
+          </label><br>
+          <label for='txtPrecio'>
+            Precio $:<input type='number' id='txtPrecio'>
+          </label><br>
+          <label for='txtCantidad'>
+            Cantidad:<input type='number' id='txtCantidad'>
+          </label><br>
+          <button type='button' id='btnAdd'>Agregar</button>
+          <button type='reset'>Cancelar</button>
+        </form>
+        <div>
+          <select id="mnuProds"></select>
+        </div>
+        <div id='listaProductos'></div>
+      </div>
+    </div>
+</body>
+</html>
